@@ -17,7 +17,7 @@
 /* --ESTILO DE LA PAGINA DE INICIO LOGIN-- */
 
 main{
-    background-color: #fff;
+    background-color: #d9d9d9;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,15 +26,21 @@ main{
     border-radius: 15px;
 }
 
+main:hover{
+    cursor: pointer;
+    background-color: #fff;
+    transition: all ease-in-out;
+    transition-duration: 0.3s;
+}
+
 form{
-    width: 450px;
-    height: 380px;
+    padding: 20px;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 0 20px #949494;
+    box-shadow: 0 0 20px #000;
     gap: 20px;
 }
 
@@ -49,8 +55,16 @@ button{
     background-color: rgb(25, 100, 228);
     width: 240px;
     height: 35px;
+    font-size: 20px;
     border-radius: 10px;
     color: #fff;
+    border: 1px solid black;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(48, 165, 248);
+
 }
 
 header{
@@ -95,6 +109,7 @@ a{
 }
 
 .container-welcome{
+    background-color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
